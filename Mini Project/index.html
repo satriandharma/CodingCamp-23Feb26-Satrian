@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">MyWebsite</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profile">Our Profile</a>
+            <a href="#message">Message Us</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="banner">
+        <h1 id="welcomeText">Hi, Welcome To Website</h1>
+        <p>This is our company portfolio website.</p>
+    </section>
+
+    <!-- Profile -->
+    <section id="profile" class="profile">
+        <h2>Our Profile</h2>
+
+        <div class="about">
+            <h3>About The Company</h3>
+            <p>We are a technology company focused on building innovative digital solutions to help businesses grow and scale.</p>
+        </div>
+
+        <div class="vision-mission">
+            <div>
+                <h3>Vision</h3>
+                <p>To become a leading digital transformation company in Indonesia.</p>
+            </div>
+            <div>
+                <h3>Mission</h3>
+                <ul>
+                    <li>Deliver high-quality software solutions</li>
+                    <li>Empower businesses with technology</li>
+                    <li>Continuously innovate and improve</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Us -->
+    <section id="message" class="message">
+        <h2>Message Us</h2>
+
+        <div class="message-container">
+            <form id="messageForm">
+                <label>Name:</label>
+                <input type="text" id="name">
+
+                <label>Email:</label>
+                <input type="email" id="email">
+
+                <label>Phone Number:</label>
+                <input type="text" id="phone">
+
+                <label>Message:</label>
+                <textarea id="userMessage"></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+
+            <div class="result" id="resultBox">
+                <h3>Submitted Data:</h3>
+                <p>Name: -</p>
+                <p>Email: -</p>
+                <p>Phone: -</p>
+                <p>Message: -</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Satrian</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
